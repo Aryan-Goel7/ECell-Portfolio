@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec8202c367.js" crossorigin="anonymous"></script>
+    <title>Aryan Goel</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            color: white;
+        }
+        a,.name
+        {
+            font-size: 16px;
+            color:white ;
+        }
+        .link:hover 
+        {
+            font-size:17px ;
+        }
+        .nav-bar 
+        {
+            margin: auto;
+            height: auto;
+            background-color: #8E806A;
+            padding : 10px ;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        body
+        {
+            background-color: #C3B091;
+        }
+        button
+        {
+            text-align: center;
+            padding:8px 16px ;
+            border: 3px solid;
+            border-color: #8E806A;
+            border-radius: 5px;
+            background-color:#C3B091;
+            font-weight: bold;
+            font-size:16px;
+        }
+        button:hover
+        {
+            background-color: #8E806A;
+        }
+        .main
+        {
+            width: 750px;
+        }
+        .link 
+        {
+            grid-column-start: 4;
+            grid-column-start: 5;
+        }
+        .content 
+        {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr ;
+            row-gap:20px;
+        }
+        #tagline,#catchy-line,#desc ,.buttons
+        {
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        .fa-solid 
+        {
+            padding:5px;
+            text-align: center;
+            color :#8E806A;
+        }
+        .link:hover
+        {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <span class="name">Aryan Goel</span>
+            <a href="Task.html" class="link">Home</a>
+            <a href="Hobbies.html" class="link">Hobbies</a>
+            <a href="Skills.html" class="link">Skills</a>
+        </nav>
+    </div>
+    <div class='main'>
+        <div class="content">
+            <h1 id="catchy-line">Hey there!</h1>
+            <h2 id="tagline">It's me, Aryan Goel here</h2>
+            <span id="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, praesentium excepturi dolorum ratione voluptatem et beatae ducimus expedita optio accusantium neque, eos, nihil rem molestiae. Doloremque blanditiis placeat non laborum?</span>
+            <i class="fa-solid fa-user-graduate fa-7x"></i>
+            <div class="buttons">
+                <a href="Hobbies.html" id="hobby"><button>My Hobbies</button></a>
+                <a href="Skills.html"><button>Skills</button></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

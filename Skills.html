@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec8202c367.js" crossorigin="anonymous"></script>
+    <title>Skills</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+        }
+        .icons 
+        {
+            width: 500px;
+            margin: auto;
+            font-family: 'Roboto Mono', monospace;
+        }
+        a,#name
+        {
+            text-decoration: none;
+            color:white;
+
+        }
+        .nav-bar 
+        {
+            height: auto;
+            background-color: #8E806A;
+            padding : 10px ;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-bottom: 10px;
+        }
+        .content
+        {
+            margin: auto;
+        }
+        .head 
+        {
+            margin-top: 5px;
+            margin-bottom: 10px;
+
+            text-align: center;
+        }
+        .fa-brands
+        {
+            text-align: center;
+            color:#8E806A;
+
+        }
+        span
+        {
+            text-align: center;
+        }
+        .icons
+        {
+            display:grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            grid-template-rows: 0.5fr 1fr;
+        }
+        #html
+        {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #javascript
+        {
+            grid-column-start:3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #css
+        {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .link:hover
+        {
+            font-size: 18px;
+        }
+        #skill
+        {
+            border-bottom: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <span id="name">Aryan Goel</span>
+                <a href="Task.html" class="link" id="task">Home</a>
+                <a href="Hobbies.html" class="link" id="hobby">Hobbies</a>
+                <a href="Skills.html" class="link" id="skill">Skills</a>
+        </nav>
+    </div>
+    <div class="content">
+    <h2 class="head">Skills</h2>
+        <div class="icons">
+            <span >HTML</span>
+            <i class="fa-brands fa-html5 fa-4x" id="html"></i>
+            <span >CSS</span>
+            <i class="fa-brands fa-css3-alt fa-4x"  id="css"></i>
+            <span >JAVASCRIPT</span>
+            <i class="fa-brands fa-js fa-4x"  id="javascript"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
